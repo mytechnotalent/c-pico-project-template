@@ -1,12 +1,11 @@
 #!/bin/sh
 
-git submodule add https://github.com/raspberrypi/pico-sdk.git
 cp ~/.vimrc ~/.vimrc_bak
 cp .vimrc ~/
 rm -rf pico
 mkdir pico
 cd pico
-git clone https://github.com/raspberrypi/pico-sdk.git
+git submodule add https://github.com/raspberrypi/pico-sdk.git
 cd pico-sdk
 git submodule init
 git submodule update
