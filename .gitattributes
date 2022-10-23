@@ -1,2 +1,0 @@
-*.c linguist-detectable=true
-src/pico_sdk_import.cmake linguist-detectable=false
